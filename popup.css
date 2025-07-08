@@ -1,0 +1,48 @@
+/* popup.css */
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000B8;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.weather {
+    background-color: #246BCE;
+    color: white;
+    
+    min-height: 180px;
+   
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h3{ 
+    color: rgb(252, 199, 65);
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:darkgrey;
+}
+.img img {
+   
+    width: 64px;
+    height: 64px;
+}
+
+.text {
+    font-size: 1rem;
+    margin-top: 8px;
+}

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "weather",
+    "version": "1.0",
+    "description": "Fetch Weather data using api",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "geolocation",
+      "declarativeNetRequest",
+      "declarativeNetRequestWithHostAccess"
+    ],
+    "host_permissions": ["<all_urls>"]
+    
+    
+  }
